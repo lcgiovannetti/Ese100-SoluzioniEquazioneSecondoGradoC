@@ -3,7 +3,7 @@
 #include <math.h>
 float calcolodelta(float a, float b, float c){
     float d;
-    d=(float)(b*b)-4 * a * c;
+    d=(b*b)-4 * a * c;
     return d;
 }
  
